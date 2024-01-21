@@ -21,5 +21,4 @@ function App({ signOut }) {
   );
 }
 
-// This is using AWS Amplify Authenticator resource
 export default withAuthenticator(App);

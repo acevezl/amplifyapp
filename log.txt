@@ -1,0 +1,43 @@
+2024-01-21T21:35:30.689Z [INFO]: # Cloning repository: git@github.com:acevezl/amplifyapp.git
+2024-01-21T21:35:31.391Z [INFO]: 
+2024-01-21T21:35:31.392Z [INFO]: Cloning into 'amplifyapp'...
+2024-01-21T21:35:31.392Z [INFO]: # Switching to commit: 8e35973617723fd6da2fa6b6bd1b8947583a3eb6
+2024-01-21T21:35:31.407Z [INFO]: Note: switching to '8e35973617723fd6da2fa6b6bd1b8947583a3eb6'.
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+                                 changes and commit them, and you can discard any commits you make in this
+                                 state without impacting any branches by switching back to a branch.
+                                 If you want to create a new branch to retain commits you create, you may
+                                 do so (now or later) by using -c with the switch command. Example:
+                                 git switch -c <new-branch-name>
+                                 Or undo this operation with:
+                                 git switch -
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+                                 HEAD is now at 8e35973 added auth
+2024-01-21T21:35:31.440Z [INFO]: Successfully cleaned up Git credentials
+2024-01-21T21:35:31.441Z [INFO]: # Checking for Git submodules at: /codebuild/output/src337756242/src/amplifyapp/.gitmodules
+2024-01-21T21:35:31.449Z [INFO]: # Retrieving environment cache...
+2024-01-21T21:35:31.518Z [INFO]: # Retrieved environment cache
+2024-01-21T21:35:31.518Z [INFO]: ---- Setting Up SSM Secrets ----
+2024-01-21T21:35:31.518Z [INFO]: SSM params {"Path":"/amplify/d64b8rcgy5a6v/staging/","WithDecryption":true}
+2024-01-21T21:35:31.565Z [WARNING]: !Failed to set up process.env.secrets
+2024-01-21T21:35:47.652Z [INFO]: # Patching NPM package '@aws-amplify/cli' from 10.5.2 to 12.10.1...
+2024-01-21T21:36:03.896Z [INFO]: # Done patching NPM package '@aws-amplify/cli' to version 12.10.1
+2024-01-21T21:36:04.000Z [INFO]: # Retrieving cache...
+2024-01-21T21:36:07.204Z [INFO]: # Extracting cache...
+2024-01-21T21:36:11.658Z [INFO]: # Extraction completed
+2024-01-21T21:36:11.802Z [INFO]: # Retrieved cache
+2024-01-21T21:36:15.503Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+                                 ## Backend environment association found
+2024-01-21T21:36:17.430Z [INFO]: [33mNote: It is recommended to run this command from the root of your app directory[39m
+2024-01-21T21:36:17.435Z [INFO]: 🛑 AWS access credentials can not be found.
+2024-01-21T21:36:17.435Z [INFO]: Learn more at: https://docs.amplify.aws/cli/project/troubleshooting/
+2024-01-21T21:36:17.499Z [INFO]: 
+2024-01-21T21:36:17.500Z [INFO]: Session Identifier: 2aa4f7e3-c5ec-497e-b23a-d97b139ea3f2
+2024-01-21T21:36:17.523Z [ERROR]: !!! Build failed
+2024-01-21T21:36:17.524Z [ERROR]: !!! Non-Zero Exit Code detected
+2024-01-21T21:36:17.524Z [INFO]: # Starting environment caching...
+2024-01-21T21:36:17.524Z [INFO]: # Uploading environment cache artifact...
+2024-01-21T21:36:17.605Z [INFO]: # Uploaded environment cache artifact
+2024-01-21T21:36:17.605Z [INFO]: # Environment caching completed
+Terminating logging...
